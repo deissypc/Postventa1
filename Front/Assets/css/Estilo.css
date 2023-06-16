@@ -1,0 +1,275 @@
+body{
+  background-color: #f5f5f5;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Navbar */
+nav{
+  background-color: #369CF2 ;
+  height: 60px;
+}
+.titulo{
+  color: white;
+  font-size: 25px;
+}
+
+/* centrar cuador del login */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh; 
+} 
+.box {
+  width: 450px;
+  height: 430px;
+  background-color: white;
+}
+
+/* inputs login */
+.dentro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  height: 90%;
+}
+input{
+  display: flex;
+  /* width: 350px;
+  height: 40px; */
+  align-items: center;
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 50px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #369CF2; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+button{
+  width: 420px;
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #369CF2; 
+  border-color: #369CF2; 
+  border-style: solid; 
+  border-radius: 10px;  
+  cursor: pointer;
+}
+
+/* Centro de experiencia */
+.texto{
+  color: white;
+  background-color: #369CF2;
+  font-size: 25px;
+  width: 100%;
+}
+h5{
+  text-align: center;
+  color: #369CF2;
+  background-color: white;
+  font-size: 18px;
+}
+
+
+
+/* Formulario */
+.formu{  
+  width: 460px; 
+  height: auto;
+  margin: 10px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: white; 
+  padding-left: 30px; 
+}
+.formulario input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #369CF2; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+label{
+  display: block; 
+  float: center;  
+}
+button p{
+  color: #fff; 
+}
+span{
+  color: #369CF2; 
+}
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+h1{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: #369CF2;
+}
+h3{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+.bo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.bo button{
+  width: 190px;
+  height: 40px;
+  /* padding-left: 5px;
+  padding-right: 10px;    */
+  margin-bottom: 20px; 
+  margin-top: 10px;  
+  text-transform: uppercase;
+  border-style: solid; 
+  border-radius: 10px;  
+  cursor: pointer;
+}
+
+.bo .button1{
+  width: 190px;
+  height: 40px;
+  /* padding-left: 5px;
+  padding-right: 10px;    */
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  border-color: #369CF2; 
+  background-color: white;
+  text-transform: uppercase;
+  border-style: solid; 
+  border-radius: 10px;  
+  cursor: pointer;
+}
+
+.formulario select{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #369CF2; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+.formulario select:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+.button2{
+  background-color: #369CF2; 
+  width: 180px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+ color: white;
+  border-color: white; 
+
+  margin-bottom: 20px; 
+
+}
+.b{
+  display: flex;
+  justify-content: left;
+  align-items:flex-start;
+  flex-direction: row;
+  justify-content: left;
+  padding-left: 30px; 
+}
+
+h2{
+  font-size: 30px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: black;
+}
+
+.button3{
+  background-color: #369CF2; 
+  width: 180; 
+  height: 40; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+ color: white;
+  border-color: white; 
+
+  margin-bottom: 20px; 
+
+}
+
+h6{
+  font-size: 15px;  
+  text-align: center; 
+  padding-bottom: 2px; 
+  padding-top: 5px;
+  background-color: white;
+  border-color: #369CF2;
+  width: 20%;
+  cursor: pointer;
+}
+
+
+.container .progress-bar{
+    display: flex;
+    margin: 30px 0;
+}
+
+.container .progress-bar .paso{
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+ 
